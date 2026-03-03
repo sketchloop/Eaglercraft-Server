@@ -1,0 +1,11 @@
+listen:
+  host: 0.0.0.0
+  port: 8080
+
+target:
+  host: 127.0.0.1
+  port: 25565
+
+motd: "EaglercraftX 1.8.8 Server"
+max_players: 20
+online_mode: false
