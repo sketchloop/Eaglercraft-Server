@@ -1,0 +1,12 @@
+tasks:
+  - name: Start EaglercraftX Server
+    command: |
+      sudo apt-get update
+      sudo apt-get install -y openjdk-17-jre
+      cd server
+      java -Xmx1G -jar server.jar nogui
+
+ports:
+  - port: 8081
+    onOpen: open-preview
+    visibility: public
